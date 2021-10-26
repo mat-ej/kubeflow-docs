@@ -51,10 +51,18 @@ COOKIE="authservice_session="+AUTH
 client = kfp.Client(host=INGRESS_GATEWAY+"/pipeline", cookies=COOKIE)
 ```
 
+**Note**: The cookie authentication so far seems to work only from within cluster
+
 # Contact
 Should you need additional help, want to cooperate or add your own working example, dont hesitate to contact me:
 
 uhrinmat`<at>`fel.cvut.cz 
+# Additional resources
+[https://kubeflow-pipelines.readthedocs.io/en/latest/index.html](https://kubeflow-pipelines.readthedocs.io/en/latest/index.html)
+
+
+# Additional Notes
+**Note**: Replace uhrinmat everywhere with your respective Kubeflow namespace.
 
 
 
